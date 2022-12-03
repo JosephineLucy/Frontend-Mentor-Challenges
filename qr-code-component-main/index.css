@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 
+
 body {
     background-color: hsl(212, 45%, 89%);
     height: 100vh;
@@ -12,18 +13,19 @@ body {
 
 .component-container {
     background-color: white;
-    height: 400px;
+    height: 500px;
     width: 325px;
     min-height: 475px;
     border-radius: 4%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .qr-code{
     background-image: url('./images/image-qr-code.png') ;
-    height: 290px;
+    height: 300px;
     width: 290px;
     background-size: cover;
     background-position: center;
@@ -32,16 +34,22 @@ body {
     margin: 15px 0;
 }
 
+.text {
+    width: 265px;
+
+}
+
 p {
     font-size: 15px;
+    font-family: Outfit;
     font-weight:400;
+    line-height: 0.5cm;
     color:hsl(220, 15%, 55%);
-    width: 270px;
+    width: 100%;
     text-align:center;
 }
 
-p:first-of-type {
-    font-family: Outfit;
+.heading {
     font-weight: 700;
     color:hsl(218, 44%, 22%);
 }
