@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-
+* {
+    padding: 0;
+    margin: 0;
+}
 
 body {
     background-color: hsl(212, 45%, 89%);
@@ -20,13 +23,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+
 }
 
 .qr-code{
     background-image: url('./images/image-qr-code.png') ;
-    height: 300px;
-    width: 290px;
+    height: 55%;
+    width: 85%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,8 +38,9 @@ body {
 }
 
 .text {
-    width: 265px;
-
+    width: 85%;
+    height: 40%;
+    padding-top: 10px;
 }
 
 p {
@@ -52,5 +56,9 @@ p {
 .heading {
     font-weight: 700;
     color:hsl(218, 44%, 22%);
+    font-size: 1.1rem;
 }
 
+.sentence {
+    padding-top: 20px;
+}
