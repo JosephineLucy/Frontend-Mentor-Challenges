@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
 }
 
 body {
-    background-color:hsl(225, 100%, 98%);
+    background-color:hsl(225, 100%, 94%);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -36,9 +38,56 @@ body {
 
 .info-container{
     grid-area: info-container;
+    height: 100%;
+    width: 90%;
+    justify-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-container > * {
+    margin-bottom: 7%;
+}
+
+.title{
+    font-family:'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+
+.summary-text {
+    font-family:'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .plan-container {
-    display: grid;
+    border-radius: 5%;
     background-color:hsl(225, 100%, 98%);
+    padding: 5%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.plan-and-cost-container {
+    line-height: 1.3rem;
+}
+
+.proceed-btn{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 5%;
+    border: none;
+    padding: 5%;
+}
+
+.proceed-btn > p {
+    color: white;
+}
+
+.cancel-btn {
+    color: hsl(224, 23%, 55%);
 }
