@@ -50,7 +50,6 @@ p {
 }
 
 .product-title {
-    /* margin: 0; */
     font-family: 'Fraunces', serif;
     color: hsl(212, 21%, 14%);
     font-size: 22px;
@@ -58,7 +57,6 @@ p {
 }
 
 .product-description {
-    /* margin: 16px 0; */
     line-height: 16px;
 }
 
